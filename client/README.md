@@ -2,9 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Starting the api
+
+from the root directory run these commands
+
+## `cd api`
+
+## `npm run develop`
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+## `cd client`
 
 ### `npm start`
 
