@@ -1,0 +1,56 @@
+.products {
+  padding: 30px 50px;
+  display: flex;
+
+  .left {
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 50px;
+    .btn {
+      min-width: 100px;
+      width: fit-content;
+      height: 50px;
+      padding: 10px;
+      margin: auto;
+      cursor: pointer;
+      border: none;
+      background-color: rgb(112, 112, 112);
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .filterItem {
+      margin-bottom: 30px;
+
+      h2 {
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      .inputItem {
+        margin-bottom: 10px;
+        label {
+          margin-left: 10px;
+        }
+      }
+      .range {
+        input {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .right {
+    flex: 3;
+
+    .catImg {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 50px;
+    }
+  }
+}
